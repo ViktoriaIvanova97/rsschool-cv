@@ -35,3 +35,42 @@ I am ready for new challenges, step by step to go to my goal and I hope that my 
 
 ---
 
+#### Skills:
+
+
+* HTML, CSS
+* Git, GitHub
+* JavaScript Basics
+* VS Code
+
+
+---
+
+#### Code example:
+
+
+DESCRIPTION:
+Write a function that checks if a given string (case insensitive) is a palindrome._
+
+    let isPalindrome = (x) =>{
+    return x.split('').reverse().join('').toLowerCase() === x.toLowerCase()? true : false}
+
+
+---
+
+
+#### Education and Courses:
+
+
+* Faculty of law BSEU (I’m a second-year student on an extra-mural separation)
+* JavaScript for beginner ( completed )
+![](img/engl.png)
+* RS Schools Course «JavaScript/Front-end 2023Q1» (in progress)
+
+---
+
+
+#### Languages:
+
+* Russian - Native
+* English - Pre-Intermediate (online test at EFset Logo)
