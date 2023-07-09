@@ -284,7 +284,7 @@ a{
     margin-right: auto ;
 	border-radius: 50%;
 	border: 2px solid rgb(230, 231, 151); 
-	background:url(../img/png-transparent-github-logo-media-social-black-white-social-media-icons-icon.png) no-repeat; 
+	background:url(./img/png-transparent-github-logo-media-social-black-white-social-media-icons-icon.png) no-repeat; 
 	
 }
 
@@ -301,7 +301,7 @@ display: block;
     margin-left: auto;
     margin-right: auto ;
 border-radius: 50%;
-	background: url(../img/unnamed.jpg)no-repeat;
+	background: url(./img/unnamed.jpg)no-repeat;
 	border: 2px solid rgb(230, 231, 151);
 }
 
