@@ -1,13 +1,72 @@
 body{
-	margin: 0%;
-	padding: 50px 0 50px 0;
+	margin: 0;
+	padding: 50px 0 0px 0;
 }
 .wrapper{
-	max-width: 1200px;
-	border: 3px solid rgb(154, 212, 190);
+	max-width: 90%;
+	border: 3px solid rgb(230, 231, 151);
 	margin: auto;
 }
 .header{
 	display: flex;
+	justify-content:space-around;
+	width: 80%;
+	margin: auto;
+	padding: 50px 0 50px 0 ;
 	
 }
+
+.main{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	text-align:start;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	margin: auto;
+	gap: 50px;
+	padding: 50px 0 50px 0;
+	background-color: hsl(0, 25%, 98%)
+	
+}
+
+.main__contacts,
+.main__info{
+	display: grid;
+	gap: 10px 0 ;
+}
+
+.info{
+	text-align:center;
+}
+
+.footer-nav{
+	padding: 10px 0 80px 0;
+	display: grid;
+	grid-template-columns: repeat(3, 100px);
+	text-align:center;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+.footer__social{
+	height: 70px;
+	width: 70px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+	background:url(/img/png-transparent-github-computer-icons-github-cdr-cat-like-mammal-carnivoran-transformed.png) no-repeat;
+}
+.footer__social2{
+height: 30px;
+width: 70px;
+display: block;
+    margin-left: auto;
+    margin-right: auto ;
+
+	background: url(/img/rs-logo.png)no-repeat;
+}
+
+
+
