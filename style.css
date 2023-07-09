@@ -74,6 +74,8 @@ h1{
 	padding: 50px 0 50px 0;
 	border: 3px solid rgb(230, 231, 151);
 	background-color: hsl(0, 25%, 98%);
+	margin-bottom: 20px;
+	
 }
 
 .main__contacts,
@@ -159,6 +161,7 @@ a{
 	background-clip:text;
 	-webkit-background-clip: text;
 	font-weight: 600;
+	font-size: larger;
 }
 
 .skill-item{
@@ -194,6 +197,70 @@ a{
 	padding: 10px;
 	
 }
+
+
+ .main-education{
+	background-color: hsl(0, 25%, 98%);
+	width: 90%;
+	margin:auto ;
+	border: 3px solid rgb(230, 231, 151);
+	display: flex;
+	padding: 50px 0 50px 0;
+	gap:40px
+ }
+
+
+.education{
+	width: 50%;
+	
+}
+
+.native-lang,
+.foreign-lang{
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: space-between;
+	background-image: linear-gradient(to left, #130c01, #1f1806d8);
+	color: transparent;
+	background-clip:text;
+	-webkit-background-clip: text;
+	font-weight: 600;
+	font-size: larger;
+	padding-top: 20px;
+}
+
+.info__education{
+	margin: auto;
+	align-items: center;
+	justify-content: space-between;
+	background-image: linear-gradient(to left, #130c01, #1f1806d8);
+	color: transparent;
+	background-clip:text;
+	-webkit-background-clip: text;
+	font-weight: 600;
+	font-size: larger;
+	padding-top: 20px;
+}
+.education-item{
+	padding-bottom: 10px;
+	
+}
+
+.lang__skill-list{
+	width:50px;
+	list-style: none;
+	margin: auto;
+	align-items: center;
+	justify-content: space-between;
+	background-image: linear-gradient(to left, #130c01, #1f1806d8);
+	color: transparent;
+	background-clip:text;
+	-webkit-background-clip: text;
+	font-weight: 600;
+	font-size: larger;
+}
+
 .footer{
 	border-top: 3px solid rgb(230, 231, 151);
 	background-color: rgb(20, 19, 19);
