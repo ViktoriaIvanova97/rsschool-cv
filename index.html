@@ -19,49 +19,154 @@
 		</div>
 	<div class="header">
 		<img src="/img/IMG_20230601_202105_818.jpg" alt="" class="header__foto">
-		<div class="header_info">
+		<div class="header-info">
 			<h1>Viktoria Ivanova</h1>
-		    <p>Web-developer</p>
+		    <p class="header-info__prof">Web-developer</p>
 	    </div>	
 	</div>
 	<div class="main">
-		<section class="main__contacts">
+		<section class="main__contacts">			
 			<h2 class="info">Contacts</h2>
-			<ul class="info-list">
-				<li>github.com/ViktoriaIvanova97</li>
-				<li>linkedin-viktoria-ivanova</li>
-				<li>ViktoriaIvanova97@yandex.by</li>
-				<li>Belarus,Minsk</li>
-			</ul>
+			<ul class="contacts">
+				<li class="contacts__github">
+					<img src="/img/github-transformed.png" alt="">
+					<div class="contact">
+						<a href="https://github.com/ViktoriaIvanova97" target="_blank">github.com/ViktoriaIvanova97</a>
+					</div>
+				</li>
+				<li class="contacts__linkedin ">
+					<img src="/img/png-clipart-linkedin-computer-icons-social-networking-service-others-miscellaneous-text.png" alt="">
+					<div class="contact">
+						<a href="https://www.linkedin.com/in/viktoria-ivanova-22b232257/" target="_blank">linkedin-viktoria-ivanova</a>	
+				</li>
+				<li class="contacts__mail">
+					<img src="/img/mail-transformed.png" alt="">
+					<div class="contact">
+						<a href="#" target="_blank">ViktoriaIvanova97@yandex.by</a>
+					</div>
+				</li>
+				<li class="contacts__map">
+					<img src="/img/map-transformed.png" alt="">
+					<div class="contact">
+						<a href="#" target="_blank">Belarus,Minsk</a>
+					</div>
+				</li>
+			</ul>			
 		</section>
-		<section class="main__info">
+		<section class="main__info">			
 			<h2 class="info">About me</h2>
-				<div class="info__about-me"></div>
+				<div class="info__about-me">
+					I am a junior front-end developer. I am inquisitive and constantly improving and currently my interest is fully directed to front-end development.
+I am ready for new challenges, step by step to go to my goal and I hope that my tenacity and diligence will help me to overcome all difficulties and become a quallified web-developer.
+				</div>
 			<h2 class="info">Skills</h2>
-				<div class="info__skills">
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Git</li>
-					<li>GitHub</li>
-					<li>JavaScript Basics</li>
-					<li>VS Code</li>
+				<div class="info-skills">
+					<li class="skill">
+						HTML
+						<ul class="skill-list">
+							<li class="skill-item"></li>
+							<li class="skill-item"></li>
+							<li class="skill-item"></li>
+							<li class="skill-item-none"></li>
+							<li class="skill-item-none"></li>
+							<li class="skill-item-none"></li>
+						</ul>
+					</li>
+					<li class="skill">CSS
+						<ul class="skill-list">
+							<li class="skill-item"></li>
+							<li class="skill-item"></li>
+							<li class="skill-item"></li>
+							<li class="skill-item-none"></li>
+							<li class="skill-item-none"></li>
+							<li class="skill-item-none"></li>
+						</ul>
+					</li>
+					<li class="skill">Git
+						<ul class="skill-list">
+							<li class="skill-item"></li>
+							<li class="skill-item"></li>
+							<li class="skill-item"></li>
+							<li class="skill-item"></li>
+							<li class="skill-item-none"></li>
+							<li class="skill-item-none"></li>
+						</ul>
+					</li>
+					<li class="skill">GitHub
+						<ul class="skill-list">
+							<li class="skill-item"></li>
+							<li class="skill-item"></li>
+							<li class="skill-item"></li>
+							<li class="skill-item"></li>
+							<li class="skill-item-none"></li>
+							<li class="skill-item-none"></li>
+						</ul>
+					</li>
+					<li class="skill">JavaScript Basics
+						<ul class="skill-list">
+							<li class="skill-item"></li>
+							<li class="skill-item"></li>
+							<li class="skill-item-none"></li>
+							<li class="skill-item-none"></li>
+							<li class="skill-item-none"></li>
+							<li class="skill-item-none"></li>
+						</ul>
+					</li>
+					<li class="skill">VS Code
+						<ul class="skill-list">
+							<li class="skill-item"></li>
+							<li class="skill-item"></li>
+							<li class="skill-item"></li>
+							<li class="skill-item"></li>
+							<li class="skill-item"></li>
+							<li class="skill-item-none"></li>
+						</ul>
+					</li>
 				</div>
 			<h2 class="info">Example code</h2>
 				<div class="info__example-code">
 					<p>DESCRIPTION: Write a function that checks if a given string (case insensitive) is a palindrome.</p>
-					<p>let isPalindrome = (x) =>{return x.split('').reverse().join('').toLowerCase() === x.toLowerCase()? true : false}</p>
+					<p class="example-code">let isPalindrome = (x) =>{return x.split('').reverse().join('').toLowerCase() === x.toLowerCase()? true : false}</p>
 				</div>			
 		</section>
+		
 	</div>
+	<section class="main-education">
+		<div class="education">
+			<h2 class="info">Education and Courses</h2>
+			<ul class="info__education">
+				<li>Faculty of law BSEU (I’m a second-year student on an extra-mural separation)</li>
+				<li>JavaScript for beginner ( completed )</li>
+				<li>RS Schools Course «JavaScript/Front-end Pre-School 2023Q2» (in progress)</li>
+			</ul>
+		</div>
+	</section>
+	<section class="main-lang">
+		<li class="lang">Russian - Native
+			<ul class="native-lang">
+				<li class="skill-item">
+					<li class="skill-item"></li>
+					<li class="skill-item"></li>
+					<li class="skill-item"></li>
+					<li class="skill-item"></li>
+					<li class="skill-item-none"></li>
+				</li>
+			</ul>
+		</li>
+		<li class="lang">English - Pre-Intermediate</li>
+	</section>
 	<div class="footer">
 		<div class="footer-nav">
 		<div class="footer__social">
-			<a href=""></a>
+			<a href="https://github.com/ViktoriaIvanova97" target="_blank">				
+			</a>
 		</div>
-		<div class="footer__age">
+		<div class="footer__age nav-block">
 			2023
 		</div>
-		<div class="footer__social2"></div>
+		<div class="footer__social2">
+			<a href="https://rs.school/js/" target="_blank"></a>
+		</div>
 		</div>
 	</div>
 </div>
