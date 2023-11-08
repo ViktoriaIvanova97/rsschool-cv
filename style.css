@@ -21,11 +21,12 @@ body{
 	gap: 40px;
 }
 
-.nav-block{
+.nav-block a{
 	color: rgba(251, 253, 255, 0.877);
-	font-weight: 400;
+	font-weight: larger;
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	
+	transition: 0.5s linear;
+
 }
 .header{
 	display: flex;
@@ -149,6 +150,7 @@ a{
 .skill-list{
 	display: flex;
 	
+	
 }
 .skill{
 	width: 50%;
@@ -162,6 +164,7 @@ a{
 	-webkit-background-clip: text;
 	font-weight: 600;
 	font-size: larger;
+	
 }
 
 .skill-item{
