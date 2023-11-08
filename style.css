@@ -13,7 +13,7 @@ body{
 	border-bottom: 3px solid rgb(230, 231, 151);
 }
 
-.header-nav__block{
+.header-nav__block-list{
 	display: flex;
 	justify-content: end;
 	width: 95%;
@@ -164,6 +164,7 @@ a{
 	-webkit-background-clip: text;
 	font-weight: 600;
 	font-size: larger;
+	padding-top: 15px;
 	
 }
 
