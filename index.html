@@ -5,28 +5,32 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style-hover.css">
 	<title>Viktoria Ivanova</title>
 </head>
 <body>
 	<div class="wrapper">
 		<div class="header-nav">
 			<div class="header-nav__block">
-				<li class="nav-block">Contacts</li>
-				<li class="nav-block">About me</li>
-				<li class="nav-block">Skills</li>
-				<li class="nav-block">Course</li>
+				<ul class="header-nav__block-list">
+					<li class="nav-block"><a href="#contacts">Contacts</a></li>
+					<li class="nav-block"><a href="#about-me">About me</a></li>
+					<li class="nav-block"><a href="#skills">Skills</a></li>
+					<li class="nav-block"><a href="#course">Course</a></li>
+				</ul>
+			
 			</div>
 		</div>
-	<div class="header">
+	<header class="header">
 		<img src="./img/IMG_20230601_202105_818.jpg" alt="" class="header__foto">
 		<div class="header-info">
 			<h1>Viktoria Ivanova</h1>
 		    <p class="header-info__prof">Web-developer</p>
 	    </div>	
-	</div>
-	<div class="main">
+	</header>
+	<main class="main">
 		<section class="main__contacts">			
-			<h2 class="info">Contacts</h2>
+			<h2 id="contacts" class="info">Contacts</h2>
 			<ul class="contacts">
 				<li class="contacts__github">
 					<img src="./img/github-transformed.png" alt="">
@@ -54,12 +58,12 @@
 			</ul>			
 		</section>
 		<section class="main__info">			
-			<h2 class="info">About me</h2>
+			<h2 id="about-me" class="info">About me</h2>
 				<div class="info__about-me">
 					I am a junior front-end developer. I am inquisitive and constantly improving and currently my interest is fully directed to front-end development.
 I am ready for new challenges, step by step to go to my goal and I hope that my tenacity and diligence will help me to overcome all difficulties and become a quallified web-developer.
 				</div>
-			<h2 class="info">Skills</h2>
+			<h2 id="skills" class="info">Skills</h2>
 				<div class="info-skills">
 					<li class="skill">
 						HTML
@@ -129,10 +133,10 @@ I am ready for new challenges, step by step to go to my goal and I hope that my 
 					<p class="example-code">let isPalindrome = (x) =>{return x.split('').reverse().join('').toLowerCase() === x.toLowerCase()? true : false}</p>
 				</div>			
 		</section>		
-	</div>
+	</main>
 	<div class="main-education">
 		<div class="education">
-			<h2 class="info">Education and Courses</h2>
+			<h2 id="course" class="info">Education and Courses</h2>
 			<ul class="info__education">
 				<li class="education-item"> ~ Faculty of law BSEU (I’m a second-year student on an extra-mural separation)</li>
 				<li class="education-item">~ JavaScript for beginner ( completed )</li>
@@ -161,7 +165,7 @@ I am ready for new challenges, step by step to go to my goal and I hope that my 
 			</ul>
 	</div>
 	</div>
-	<div class="footer">
+	<footer class="footer">
 		<div class="footer-nav">
 		<div class="footer__social">
 			<a href="https://github.com/ViktoriaIvanova97" target="_blank">				
@@ -174,7 +178,7 @@ I am ready for new challenges, step by step to go to my goal and I hope that my 
 			<a href="https://rs.school/js/" target="_blank"></a>
 		</div>
 		</div>
-	</div>
+	</footer>
 </div>
 </body>
 </html>
